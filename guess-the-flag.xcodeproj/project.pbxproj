@@ -15,6 +15,7 @@
 		640601DB249D6CEF00D4DE25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 640601D9249D6CEF00D4DE25 /* LaunchScreen.storyboard */; };
 		640601E6249D6CF000D4DE25 /* guess_the_flagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640601E5249D6CF000D4DE25 /* guess_the_flagTests.swift */; };
 		640601F1249D6CF000D4DE25 /* guess_the_flagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640601F0249D6CF000D4DE25 /* guess_the_flagUITests.swift */; };
+		646D9DA6249EA6C6006F432C /* FlagImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646D9DA5249EA6C6006F432C /* FlagImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		640601EC249D6CF000D4DE25 /* guess-the-flagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "guess-the-flagUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		640601F0249D6CF000D4DE25 /* guess_the_flagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guess_the_flagUITests.swift; sourceTree = "<group>"; };
 		640601F2249D6CF000D4DE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		646D9DA5249EA6C6006F432C /* FlagImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				640601CE249D6CEF00D4DE25 /* AppDelegate.swift */,
 				640601D0249D6CEF00D4DE25 /* SceneDelegate.swift */,
 				640601D2249D6CEF00D4DE25 /* ContentView.swift */,
+				646D9DA5249EA6C6006F432C /* FlagImage.swift */,
 				640601D4249D6CEF00D4DE25 /* Assets.xcassets */,
 				640601D9249D6CEF00D4DE25 /* LaunchScreen.storyboard */,
 				640601DC249D6CEF00D4DE25 /* Info.plist */,
@@ -270,6 +273,7 @@
 				640601CF249D6CEF00D4DE25 /* AppDelegate.swift in Sources */,
 				640601D1249D6CEF00D4DE25 /* SceneDelegate.swift in Sources */,
 				640601D3249D6CEF00D4DE25 /* ContentView.swift in Sources */,
+				646D9DA6249EA6C6006F432C /* FlagImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

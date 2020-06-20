@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
 //    @State private var showingAlert = false
     @State private var countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland", "Russia", "Spain", "UK", "US"].shuffled()
@@ -30,15 +31,19 @@ struct ContentView: View {
                         .fontWeight(.black)
                 }
                 ForEach(0 ..< 3) { number in
-                    Button(action : {
+                    FlagImage(name: self.countries[number], handler: {
                         self.flagTapped(number)
-                    }) {
-                        Image(self.countries[number])
-                            .renderingMode(.original)
-                            .clipShape(Capsule())
-                            .overlay(Capsule().stroke(Color.black, lineWidth: 2))
-                            .shadow(color:.white, radius: 10)
-                    }
+                    })
+//
+//                    Button(action : {
+//                        self.flagTapped(number)
+//                    }) {
+//                        Image(self.countries[number])
+//                            .renderingMode(.original)
+//                            .clipShape(Capsule())
+//                            .overlay(Capsule().stroke(Color.black, lineWidth: 2))
+//                            .shadow(color:.white, radius: 10)
+//                    }
                 }
                 Text("\(scoreTitle)")
                 Spacer()
